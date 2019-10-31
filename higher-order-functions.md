@@ -1,4 +1,4 @@
-#Higher Order Functions 
+# Higher Order Functions 
 
 Higher order functions are a language agnostic concept where a function takes in another function as an argument, or returns a function as its result. The most commonly used HOFs are map, filter, and reduce.
 
