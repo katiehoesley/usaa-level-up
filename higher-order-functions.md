@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Friday 11/1
 
@@ -32,6 +33,9 @@ Write a basic algorithm that takes in two numbers as arguments and returns the p
 
 
 #Higher Order Functions 
+=======
+# Higher Order Functions 
+>>>>>>> 15020d7e1d3e52e8b19de0ca4377790bb825f5bc
 
 Higher order functions are a language agnostic concept where a function takes in another function as an argument, or returns a function as its result. The most commonly used HOFs are map, filter, and reduce.
 
