@@ -26,11 +26,6 @@ Since the snippet uses accounts.length instead of accounts.size() and bracket no
 **Now, let’s implement some of what we’ve learned to write some basic algorithms!**
 Have students solve each of these algorithms (pair on some, do one on the board, mix it up) and have them verbally walk through the algorithm to ensure understanding.
 
-- “Make Upper Case”: https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7
-- Swift foxes - given an array of different types of foxes, one of them is a SWIFT fox, write a method that only returns the swift foxes
-- Given an array of numbers, return an array of numbers without any duplicates - use this array : [1, 55, 5, 2, 3, 4, 4, 4, 7, 6, 55, 444, 1, 321, 64, 66788, 342, 11, 55, 55, 2]
-- “Alternating Case”: https://www.codewars.com/kata/56efc695740d30f963000557
-- “Multiply”: https://www.codewars.com/kata/50654ddff44f800200000004
 
 ## Streams
 
@@ -222,6 +217,13 @@ public static void main(String[] args)
 ```
 
 #### TASK: Use .reduce() to combine an array of individual letter strings into one string
+
+
+- “Make Upper Case”: https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7
+- Swift foxes - given an array of different types of foxes, one of them is a SWIFT fox, write a method that only returns the swift foxes
+- Given an array of numbers, return an array of numbers without any duplicates - use this array : [1, 55, 5, 2, 3, 4, 4, 4, 7, 6, 55, 444, 1, 321, 64, 66788, 342, 11, 55, 55, 2]
+- “Alternating Case”: https://www.codewars.com/kata/56efc695740d30f963000557
+- “Multiply”: https://www.codewars.com/kata/50654ddff44f800200000004
 
 ## Check for Understanding:
 
