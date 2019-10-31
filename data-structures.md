@@ -3,16 +3,17 @@
 ## Data types in Java 
 **Primitive types** in Java are the most basic data types available within the language. There are 8: 
 
-- boolean
-- byte
-- char
-- short
-- int 
-- long 
-- float 
-- double
+- boolean (true or false)
+- byte (stores whole numbers -128 to 127)
+- char (unicode character, like “a”)
+- short (whole numbers -32,768 to 32,767)
+- int (whole number)
+- long (whole number -9trillion - 9trillion)
+- float (floating point number, fractional numbers up to 7 digits)
+- double (floating point number, fractional up to 15 digits)
 
-**Non-primitive data types** in Java include Strings, Classes, Interfaces, and Arrays. 
+**Non-primitive data types (AKA Reference Types)** in Java include Strings, Classes, Interfaces, and Arrays. These types are based on a class rather than a primitive type.
+
 
 
 ## Arrays
@@ -56,10 +57,66 @@ for(String address : addresses) {
 }
 ```
 
+## Interfaces
+An interface is a reference type in Java. But... what does that mean?
+
+An interface defines behavior that can be shared among several classes. The classes that share this behavior are said to ***implement*** the interface.  Another wayt o describe an interface is to say it is a contract to which a class must agree. 
+
+An interface is 100% abstract class and has only abstract methods. 
+
+A Class can implement any number of interfaces.
+
+Interfaces look a LOT like classes. In their most common form, they contian no fields, and the methods they include never have implementations, this is left to the classes to implement.
+
+So - most interfaces are collections of method signatures and these defined the common behavior that classes can share. 
+
+(Method signature: method name + parameter list
+
+```
+public void setMapReference(int xCoordinate, int yCoordinate) {
+	//method code 
+}
+```
+In the above method, the methid signature is `setMapReference(int, int)`
+
+)
+
+To use an interface in your class, append the word ‘implements’ after your class name followed by the interface name.
+
+`class Dog implements Pet`
+
+So, an example would be an interface defining behavior of Animal and a Class implementing that interface and customizing it to itself. 
+
+```
+interface Animal {
+	public void animalSound(); //no body because this is  method signature
+	public void sleep(); //another method signature
+}
+
+class Pig implements Animal{
+	public void animalSound(){
+		System.out.println(“Oink!”);
+	}
+	public void sleep() {
+		System.out.println(“Zzz”);
+	}
+}
+
+class myMainClass{
+	public statis void main(String[] args) {
+		Pig myPig = new Pig(); // create an empty Pig
+		myPig.animalSound(); //prints “Oink!”
+		myPig.sleep(); //prints “Zzz”
+	}
+}
+
+```
+
 ## Lists 
 A List is a child interface of Collection. It is an ordered collection of objects in which duplicate values can be stored. 
 
 Since List preserves the insertion order, it allows positional access and insertion of elements. List Interface is implemented by ArrayList, LinkedList, Vector and Stack classes.
+
 
 List is an interface, and the instances of List can be created in the following ways: 
 
@@ -218,33 +275,6 @@ class User {
 }
 ```
 
-## Interfaces
-An interface is a reference type in Java. But... what does that mean?
-
-An interface defines behavior that can be shared among several classes. The classes that share this behavior are said to ***implement*** the interface.  Another wayt o describe an interface is to say it is a contract to which a class must agree. 
-
-An interface is 100% abstract class and has only abstract methods. 
-
-A Class can implement any number of interfaces.
-
-Interfaces look a LOT like classes. In their most common form, they contian no fields, and the methods they include never have implementations, this is left to the classes to implement.
-
-So - most interfaces are collections of method signatures and these defined the common behavior that classes can share. 
-
-(Method signature: method name + parameter list
-
-```
-public void setMapReference(int xCoordinate, int yCoordinate) {
-	//method code 
-}
-```
-In the above method, the methid signature is `setMapReference(int, int)`
-
-)
-
-To use an interface in your class, append the word ‘implements’ after your class name followed by the interface name.
-
-`class Dog implements Pet`
 
 
 ## Checks for Understanding! 
