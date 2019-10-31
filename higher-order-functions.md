@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Friday 11/1
 
@@ -267,3 +268,8 @@ Which HOF would you use to add up all elements in an array and return the total?
 ## When done: Pair on Reverse Polish Calculator
 
 
+=======
+# Friday 11/1
+
+
+>>>>>>> 6ef4fbab2a213db059714053353a718dd40b46d1
