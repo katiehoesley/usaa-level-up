@@ -1,3 +1,36 @@
+
+# Friday 11/1
+
+
+## Checks for Understanding! 
+
+**Question:** Which of the data structures we’ve discusses are the best option for holding an indeterminate number of elements? 
+**Answer:** ArrayList
+
+
+**Question:** What is the data structure assigned to the variable `accounts` in the following code snippet? 
+
+```
+int balance = 0;
+
+for(int i = 0; i < accounts.length; i++) {
+  balance += accounts[i];
+}
+```
+**Answer:** `int[]` 
+
+Since the snippet uses accounts.length instead of accounts.size() and bracket notation instead of accounts.get(i), you can conclude that accounts is an Array. Additionally, the values of those elements are being added to the variable balance which is an int. Therefore, accounts must be an int[].
+
+
+**Now, let’s implement some of what we’ve learned to write some basic algorithms!**
+
+Write a basic algorithm that checks whether a word is a palindrome!
+
+Write a basic algorithm that takes in two numbers as arguments and returns the product of those two numbers multiplied together. 
+
+- “Multiply”: https://www.codewars.com/kata/50654ddff44f800200000004
+
+
 #Higher Order Functions 
 
 Higher order functions are a language agnostic concept where a function takes in another function as an argument, or returns a function as its result. The most commonly used HOFs are map, filter, and reduce.
