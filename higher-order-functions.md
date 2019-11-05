@@ -255,18 +255,4 @@ Which HOF would you use to add up all elements in an array and return the total?
 - [Fun Fun Functions HOFs Part III](https://www.youtube.com/watch?v=Wl98eZpkp-c&feature=youtu.be)
 
 
-## When done: Solve shopping cart in Java
-*Don’t open these if you are a student looking ahead - this is meant to be done in class, timed!*
-
-- https://github.com/gSchool/shopping-cart-interview-jest
-- Rubric: https://github.com/gSchool/shopping-cart-interview-jest/blob/master/README.md
-
-## When done: Pair on 4 level 8 CodeWars algorithms
-- https://www.codewars.com/kata/5772da22b89313a4d50012f7
-- https://www.codewars.com/kata/5168bb5dfe9a00b126000018
-- https://www.codewars.com/kata/565f5825379664a26b00007c
-- https://www.codewars.com/kata/58f8a3a27a5c28d92e000144
-
-## When done: Pair on Reverse Polish Calculator
-
 
