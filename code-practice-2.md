@@ -9,5 +9,4 @@ Do the following algorithms with a pair. You should utilize whatever tools you n
 
 * [First non-repeated character in a string](https://www.codewars.com/kata/570f6436b29c708a32000826)
 
-* [Balanced numbers](https://www.codewars.com/kata/5a4e3782880385ba68000018)
 

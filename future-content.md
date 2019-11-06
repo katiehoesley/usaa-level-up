@@ -17,3 +17,7 @@ Do not read this md if you are a student! This is a place for future content to 
 - Instructors need to build out the scaffolding for this 
 - Needs stories 
 - Students TDD the stories 
+
+
+## Dependency Injections 
+- [Amigos Code: Dependency Injection Explained](https://www.youtube.com/watch?v=oqYRl06DNHQ)
